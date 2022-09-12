@@ -101,7 +101,8 @@ var spanModal4 = document.getElementsByClassName("closeModal4")[0];
 
 // When the user clicks on the button, open the modal
 btnModal4.onclick = function () {
-  modal4.style.display = "block";
+  //modal4.style.display = "none";
+  window.location.href = window.location.href;
 };
 
 // When the user clicks on <span> (x), close the modal
@@ -145,7 +146,7 @@ window.onclick = function (event) {
 //BUTTON 6 -- links to outside website
 var btn6 = document.getElementById("btn6");
 btn6.onclick = function () {
-  window.open("https://www.arduino.cc", "_blank"); //TODO add your link
+  window.open("https://rafiyashahana.github.io/online-resume-react/", "_blank"); //TODO add your link
 };
 
 //HOBBY MODALS
