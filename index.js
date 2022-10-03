@@ -149,11 +149,8 @@ btn6.onclick = function () {
   window.open("https://rafiyashahana.github.io/online-resume-react/", "_blank"); //TODO add your link
 };
 
-//HOBBY MODALS
-
 //BUTTON HOBBY 1
 
-// Get the button that opens the modal
 var btnHobby1 = document.getElementById("hobbyBtn1");
 
 btnHobby1.onclick = function () {};
@@ -162,16 +159,12 @@ btnHobby1.onclick = function () {};
 
 var btnHobby2 = document.getElementById("hobbyBtn2");
 
-// When the user clicks on the button, open the modal
 btnHobby2.onclick = function () {};
 
 //BUTTON HOBBY 3
-var modalHobby3 = document.getElementById("modalHobby3");
 
-// Get the button that opens the modal
 var btnHobby3 = document.getElementById("hobbyBtn3");
 
-// When the user clicks on the button, open the modal
 btnHobby3.onclick = function () {
   window.open(
     "https://rafiyashahana.github.io/advanced-weather-api/",
@@ -179,20 +172,14 @@ btnHobby3.onclick = function () {
   );
 };
 
-// Get the button that opens the modal
 var btnHobby4 = document.getElementById("hobbyBtn4");
 
-// Get the <span> element that closes the modal
-
-// When the user clicks on the button, open the modal
 btnHobby4.onclick = function () {
-  window.open("https://rafiyashahana.github.io/tip-calculator//", "_blank");
+  window.open("https://rafiyashahana.github.io/netflix-clone/", "_blank");
 };
 
-// Get the button that opens the modal
 var btnHobby5 = document.getElementById("hobbyBtn5");
 
-// When the user clicks on the button, open the modal
 btnHobby5.onclick = function () {
   window.open(
     "https://rafiyashahana.github.io/rock-paper-scissor-app/",
@@ -207,20 +194,12 @@ btnHobby8.onclick = function () {
   window.open("https://rafiyashahana.github.io/fighting-game/", "_blank");
 };
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target == modalHobby5) {
-    modalHobby5.style.display = "none";
-  }
-};
-
 //BUTTON HOBBY 6
 
-var btnHobby6 = document.getElementById("hobbyBtn6");
-
-// Get the <span> element that closes the modal
-
-// When the user clicks anywhere outside of the modal, close it
+var btnHobby9 = document.getElementById("hobbyBtn9");
+btnHobby9.onclick = function () {
+  window.open("https://rafiyashahana.github.io/tip-calculator//", "_blank");
+};
 
 let tabs = document.querySelectorAll(".tabs h5");
 let tabContents = document.querySelectorAll(".tab-contents div");
